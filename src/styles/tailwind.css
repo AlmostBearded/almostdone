@@ -1,21 +1,13 @@
 @tailwind base;
 
 body {
-  @apply min-h-screen bg-green-100;
+  @apply min-h-screen bg-green-700 text-green-100;
 }
 
 @tailwind components;
 
-#content {
-  @apply mx-auto pt-5 px-3;
-}
-
-#title {
-  @apply text-center text-2xl py-10 mb-8 underline bg-green-300;
-}
-
 .task {
-  @apply my-1 px-5 py-2 bg-green-300;
+  @apply my-1 px-5 py-2;
 }
 
 .task.done {
@@ -27,7 +19,7 @@ body {
 }
 
 .task-list {
-  @apply bg-green-200 p-3;
+  @apply bg-green-800 p-3;
 }
 
 .task-list > h2 {
