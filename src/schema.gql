@@ -1,0 +1,9 @@
+type Task {
+    title: String!
+    done: Boolean!
+}
+
+type Query {
+    allTasks: [Task!]
+    allTasksByDone(done: Boolean!): [Task!]
+}
