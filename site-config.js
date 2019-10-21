@@ -1,16 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
-  themeColor: `#000`,
-  backgroundColor: `#fff`,
+  siteTitle: 'AlmostDone',
+  siteTitleShort: 'AlmostDone',
+  siteDescription: 'A minimalistic task management application.',
+  siteUrl: 'https://almostdone2.netlify.com',
+  themeColor: '#000',
+  backgroundColor: '#fff',
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: `gatsbyjs`,
-    fbAppId: `966242223397117`,
+    twitter: 'almostbearded',
+    fbAppId: '0000000000000', // <-- not a real app id
   },
 };
